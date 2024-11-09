@@ -10,8 +10,8 @@ const HomeLayout = () => {
   return (
     <Tabs screenOptions={options.tabs}>
       <Tabs.Screen name="index" options={options.index} />
-      <Tabs.Screen name="chat/index" options={options.chat} />
-      <Tabs.Screen name="feedback/index" options={options.feedback} />
+      <Tabs.Screen name="chat" options={options.chat} />
+      <Tabs.Screen name="feedback" options={options.feedback} />
       <Tabs.Screen name="diary" options={options.diary} />
     </Tabs>
   );
