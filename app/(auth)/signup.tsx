@@ -6,6 +6,7 @@ import { Link } from "expo-router";
 const Signup = () => {
   return (
     <SafeAreaView>
+      <Text>Route: "/signup"</Text>
       <Text>Signup</Text>
       <Link href={"/"}>Go to Login</Link>
     </SafeAreaView>

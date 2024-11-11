@@ -7,6 +7,7 @@ import { Link } from "expo-router";
 const Home = () => {
   return (
     <SafeAreaView>
+      <Text>Route: "/"</Text>
       <Text>Home</Text>
       <Link href={"/(auth)"}>Logout</Link>
     </SafeAreaView>

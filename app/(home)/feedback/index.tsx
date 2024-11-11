@@ -6,6 +6,7 @@ import { Link } from "expo-router";
 const Feedback = () => {
   return (
     <SafeAreaView>
+      <Text>Route: "/feedback"</Text>
       <Text>Feedback</Text>
       <Link href={"/(home)"}>Go to Home</Link>
     </SafeAreaView>

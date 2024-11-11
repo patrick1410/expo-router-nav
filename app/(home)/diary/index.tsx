@@ -6,6 +6,7 @@ import { Link } from "expo-router";
 const Diary = () => {
   return (
     <SafeAreaView style={{ paddingTop: StatusBar.currentHeight }}>
+      <Text>Route: "/diary"</Text>
       <Text>Diary</Text>
       <Link href={"/(home)"}>Go to Home</Link>
     </SafeAreaView>
